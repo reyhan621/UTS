@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	
+</head>
+<body>
+	<h1 align="center"> Kartu Nama Ujian </h1>
+
+	
+
+	<div class="card" style="width: 18rem;" align="center">
+		<img src="https://i.cbc.ca/1.5167213.1559938338!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/hazard-eden-052919.jpg" class="card-img-top" align="center" alt="...">
+		<div class="card-body" align="center">
+			<h5 class="card-title">Reyhan Muhammad Fauzan</h5>
+			<p class="card-text">TRPL B</p	>
+			<p class="card-text"> Universitas Gadjah Mada</p>
+			<p class="card-text"> Chill Out, Hang Out, Sholat, Cumlaude</p>
+		</div>
+	</div>
+
+	
+
+	<div id="footer">
+		Copyright &copy; 2020
+		Designed by Reyhan Muhammad Fauzan
+	</div>
+
+
+
+</body>
+</html>
