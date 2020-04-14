@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<title>Hello, world!</title>
+</head>
+<body>
+	<h1 align="center"> Kenapa kamu belajar semua ini? </h1>
+	
+			
+		</div>
+	</nav>
+
+
+
+	<div class="row row-cols-1 row-cols-md-2">
+		<div class="col mb-4">
+			<div class="card">
+				<img src="https://www.petanikode.com/img/html/html.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">HTML</h5>
+					<p class="card-text">HTML adalah dasar dari pemrograman web jadi jika ingin membuat web harus dimulai dari yang awal terlebih dahulu yaitu dengan belajar HTML.</p>
+					<a href="https://www.w3schools.com/html/"> <button type="button" class="btn btn-outline-info">Link HTML</button> </a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col mb-4">
+			<div class="card">
+				<img src="https://www.petanikode.com/img/css/css.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">CSS</h5>
+					<p class="card-text">CSS lanjutan dari HTML disini kita akan mudah untuk memprogram suatu web.</p>
+					<a href="https://www.w3schools.com/htmL/html_css.asp"> <button type="button" class="btn btn-outline-info">Link CSS</button> </a>
+					
+				</div>
+			</div>
+		</div>
+
+		<div class="col mb-4">
+			<div class="card">
+				<img src="https://i0.wp.com/edusoftcenter.com/wp-content/uploads/2018/12/bootstrap-illustration.png?fit=640%2C240&ssl=1" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Bootstrap</h5>
+					<p class="card-text">Bootstrap adalah sebuah library framework CSS yang dibuat khusus untuk bagian front-end website. Jadi jika ingin membuat web harus belajar tentang Bootstrap.</p>
+					<a href="https://getbootstrap.com/"> <button type="button" class="btn btn-outline-info">Link Bootstrap</button> </a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col mb-4">
+			<div class="card">
+				<img src="https://velocitydeveloper.com/wp-content/uploads/2019/04/Javascript.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Java Script</h5>
+					<p class="card-text">JavaScript adalah bahasa pemrograman tingkat tinggi dan dinamis. JavaScript populer di internet dan dapat bekerja di sebagian besar penjelajah web populer seperti Google Chrome, Internet Explorer, Mozilla Firefox, Netscape dan Opera. Kode JavaScript dapat disisipkan dalam halaman web menggunakan tag SCRIPT.</p>
+					<a href="https://www.w3schools.com/html/html_scripts.asp"> <button type="button" class="btn btn-outline-info">Link Java Script</button> </a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer">
+		Copyright &copy; 2020
+		Designed by Reyhan Muhammad Fauzan
+	</div>
+
+
+
+</body>
+</html>
