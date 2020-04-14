@@ -1,40 +1,215 @@
-<!doctype html>
-<html lang="en">
+<html>
 <head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>UTS</title>
 
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-
-	
+	<!--Main CSS-->
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-	<h1 align="center"> Kartu Nama Ujian </h1>
+	<nav>
+		<h2>Kartu Nama Ujian</h2>
+		<img src="https://i.cbc.ca/1.5167213.1559938338!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/hazard-eden-052919.jpg">
+	</nav>
 
-	
+	<br><br>
 
-	<div class="card" style="width: 18rem;" align="center">
-		<img src="https://i.cbc.ca/1.5167213.1559938338!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/hazard-eden-052919.jpg" class="card-img-top" align="center" alt="...">
-		<div class="card-body" align="center">
-			<h5 class="card-title">Reyhan Muhammad Fauzan</h5>
-			<p class="card-text">TRPL B</p	>
-			<p class="card-text"> Universitas Gadjah Mada</p>
-			<p class="card-text"> Chill Out, Hang Out, Sholat, Cumlaude</p>
+	<div class="card">
+		<div class="box">
+			<div class="gambar">
+				<img src="gambar.webp" alt="">
+			</div>
 		</div>
+		<div class="nama">
+			<h4>Reyhan Muhammad F</h4>
+		</div>
+
+		<div class="trpl">
+			<p>TRPL B</p>
+		</div>
+
+		<div class="universitas">
+			<p>Universitas Gadjah Mada</p>
+		</div>
+
+		<div class="motto">
+			<p>"Chill Out, Hang Out, Sholat, Cumlaude"</p>
+		</div>
+
+		<div id="footer">
+			Copyright &copy; 2020
+			Designed by Reyhan Muhammad Fauzan
+		</div>
+
 	</div>
-
-	
-
-	<div id="footer">
-		Copyright &copy; 2020
-		Designed by Reyhan Muhammad Fauzan
-	</div>
-
-
-
 </body>
 </html>
+
+css
+
+body {
+    width: 1440px;
+    height: 789px;
+    left: 52px;
+    top: 1164px;
+    align-content: center;
+    
+    background: #FFFFFF;
+}
+
+nav {
+    position: absolute;
+    width: 1440px;
+    height: 86px;
+    left: 0px;
+    top: 0px;
+    background: #F9F9F9;
+    text-align: center;
+}
+
+nav h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+    
+}
+
+.card {
+    position: absolute;
+    width: 398px;
+    height: 612px;
+    left: 521px;
+    top: 126px;
+    
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+}
+
+.box {
+    position: absolute;
+    width: 286px;
+    height: 286px;
+    left: 56px;
+    top: 56px;
+
+    background: #DDDDDD;
+    border-radius: 8px;
+    align-content: center;
+}
+
+.gambar {
+    position: absolute;
+    width: 237px;
+    height: 114px;
+    left: 81px;
+    top: 142px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    align-content: center;
+    color: #C4C4C4;
+}
+
+.nama {
+    position: absolute;
+    width: 286px;
+    height: 38px;
+    left: 56px;
+    top: 374px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.trpl {
+    position: absolute;
+    width: 286px;
+    height: 28px;
+    left: 56px;
+    top: 428px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.universitas {
+    position: absolute;
+    width: 286px;
+    height: 19px;
+    left: 56px;
+    top: 472px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    
+    text-align: center;
+    text-decoration-line: underline;
+    
+    color: #000000;
+}
+
+.motto {
+    position: absolute;
+    width: 286px;
+    height: 19px;
+    left: 56px;
+    top: 507px;
+
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.copyright {
+    position: absolute;
+    width: 286px;
+    height: 14px;
+    left: 56px;
+    top: 542px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    
+
+    text-align: center;
+
+    color: #888888;
+}
